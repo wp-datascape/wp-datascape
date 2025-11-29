@@ -8,26 +8,37 @@
 
 - 🔭 Currently working on **E-commerce Backend API** with Go
 - 🌱 Learning **Microservices**, **gRPC**, and **Event-Driven Architecture**
-- 💻 Tech Stack: **Go**, **PostgreSQL**, **Docker**, **Linux**
+- 💻 Tech Stack: **Go**, **Node.js**, **JavaScript**, **PostgreSQL**, **MySQL**, **Docker**, **Linux**
 - 🎯 Focus: Clean Architecture, REST APIs, Database Migrations
 - 📍 Location: Malang, East Java, Indonesia
 
 ## 🛠️ Tech Stack
 
+### Languages
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Backend & Frameworks
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
+
+### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Tools & DevOps
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ## 📊 GitHub Statistics
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&theme=tokyonight&hide_border=true)
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 
 </div>
 
@@ -35,7 +46,15 @@
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=wp-datascape&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=wp-datascape&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=wp-datascape&theme=tokyo-night&hide_border=true&area=true)
 
 </div>
 
@@ -43,17 +62,24 @@
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=wp-datascape&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-profile-trophy.vercel.app/?username=wp-datascape&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15&margin-h=15"/>
 
 </div>
 
 ## 📂 Featured Projects
 
 Here are some of my recent projects:
+
+### 🛒 E-Commerce Backend API
+> RESTful API with JWT authentication, database migrations, and clean architecture
+- **Tech:** Go, PostgreSQL, Gin, JWT
+- **Features:** User auth, Product management, Order processing
+- [View Repository →](https://github.com/wp-datascape/golang-gin)
+
 ### 🔧 Go Migration Helper
 > Custom database migration tool with CLI support
 - **Tech:** Go, golang-migrate, Makefile
-- **Features:** Auto-load .env, Up/Down migrations
+- **Features:** Auto-load .env, Up/Down migrations, Force version
 - [View Repository →](https://github.com/wp-datascape/golang-gin)
 
 ## 💻 Current Focus
@@ -67,9 +93,8 @@ Here are some of my recent projects:
 
 ## 📫 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/example_profile)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/example_profile)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wp-datascape)
 
 ---
 
