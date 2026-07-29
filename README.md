@@ -8,7 +8,7 @@
 
 - 🔭 Currently working on **E-commerce Backend API** with Go
 - 🌱 Learning **Microservices**, **gRPC**, and **Event-Driven Architecture**
-- 💻 Tech Stack: **Go**, **Node.js**, **JavaScript**, **PostgreSQL**, **MySQL**, **Docker**, **Linux**
+- 💻 Tech Stack: **Go**, **Node.js**, **Bun**,**Hono**, **TypeScript**, **PostgreSQL**, **MySQL**, **Docker**, **Linux**
 - 🎯 Focus: Clean Architecture, REST APIs, Database Migrations
 - 📍 Location: Malang, East Java, Indonesia
 
