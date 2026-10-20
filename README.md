@@ -47,14 +47,15 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&bg_color=00000000&title_color=3d59a1&icon_color=7e57c2&text_color=3b4252&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wp-datascape/wp-datascape/stats-output/stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wp-datascape/wp-datascape/stats-output/stats-light.svg" />
+  <img alt="GitHub stats" height="175" src="https://raw.githubusercontent.com/wp-datascape/wp-datascape/stats-output/stats-dark.svg" />
 </picture>
+&nbsp;&nbsp;&nbsp;&nbsp;
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&bg_color=00000000&title_color=3d59a1&icon_color=7e57c2&text_color=3b4252&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wp-datascape/wp-datascape/stats-output/langs-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wp-datascape/wp-datascape/stats-output/langs-light.svg" />
+  <img alt="Top languages" height="175" src="https://raw.githubusercontent.com/wp-datascape/wp-datascape/stats-output/langs-dark.svg" />
 </picture>
 
 <picture>

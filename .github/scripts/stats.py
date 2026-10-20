@@ -74,7 +74,7 @@ def collect(v):
 
 
 def stats_svg(rows, t):
-    h = 50 + len(rows) * 25
+    h = max(175, 50 + len(rows) * 25)
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="360" height="{h}" viewBox="0 0 360 {h}">',
            f'<text x="0" y="22" style="{FONT};font-size:18px;font-weight:600" fill="{t["title"]}">GitHub Stats</text>']
     for i, (label, value) in enumerate(rows):
@@ -88,7 +88,7 @@ def stats_svg(rows, t):
 
 def langs_svg(langs, t):
     w, rows = 360, (len(langs) + 1) // 2
-    h = 70 + rows * 24
+    h = max(175, 70 + rows * 24)
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">',
            f'<text x="0" y="22" style="{FONT};font-size:18px;font-weight:600" fill="{t["title"]}">Top Languages</text>',
            '<clipPath id="bar"><rect x="0" y="36" width="350" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">']
