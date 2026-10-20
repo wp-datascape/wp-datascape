@@ -16,6 +16,7 @@ query {
       totalCommitContributions
       restrictedContributionsCount
     }
+    pullRequests { totalCount }
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
       totalCount
       nodes {
@@ -64,10 +65,10 @@ def collect(v):
     return {
         "rows": [
             ("Commits (last year)", cc["totalCommitContributions"] + cc["restrictedContributionsCount"]),
+            ("Pull requests", v["pullRequests"]["totalCount"]),
             ("Total repositories", v["repositories"]["totalCount"]),
             ("Private repositories", sum(r["isPrivate"] for r in repos)),
             ("Public repositories", sum(not r["isPrivate"] for r in repos)),
-            ("Languages used", len(langs)),
         ],
         "langs": [(n, s / total * 100, c) for n, (s, c) in top],
     }
