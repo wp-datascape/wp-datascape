@@ -16,9 +16,8 @@ query {
       totalCommitContributions
       restrictedContributionsCount
       totalPullRequestContributions
+      totalPullRequestReviewContributions
     }
-    pullRequests { totalCount }
-    issues { totalCount }
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
       totalCount
       nodes {
@@ -66,8 +65,8 @@ def collect(v):
     return {
         "rows": [
             ("Commits (last year)", cc["totalCommitContributions"] + cc["restrictedContributionsCount"]),
-            ("Pull requests", v["pullRequests"]["totalCount"]),
-            ("Issues", v["issues"]["totalCount"]),
+            ("Pull requests (last year)", cc["totalPullRequestContributions"]),
+            ("Code reviews (last year)", cc["totalPullRequestReviewContributions"]),
             ("Stars earned", sum(r["stargazerCount"] for r in repos)),
             ("Repositories (incl. private)", v["repositories"]["totalCount"]),
         ],
