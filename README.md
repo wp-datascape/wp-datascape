@@ -46,10 +46,22 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&bg_color=00000000&title_color=3d59a1&icon_color=7e57c2&text_color=3b4252&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&bg_color=00000000&title_color=3d59a1&icon_color=7e57c2&text_color=3b4252&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=a9b1d6&hide_border=true" />
+</picture>
 
-<img width="100%" src="https://streak-stats.demolab.com/?user=wp-datascape&background=1a1b27&ring=7aa2f7&fire=bb9af7&currStreakLabel=7aa2f7&sideLabels=bb9af7&currStreakNum=a9b1d6&sideNums=a9b1d6&dates=565f89&hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=wp-datascape&hide_border=true&background=00000000&ring=7aa2f7&fire=bb9af7&currStreakLabel=7aa2f7&sideLabels=bb9af7&currStreakNum=a9b1d6&sideNums=a9b1d6&dates=6b7394" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=wp-datascape&hide_border=true&background=00000000&ring=3d59a1&fire=7e57c2&currStreakLabel=3d59a1&sideLabels=7e57c2&currStreakNum=3b4252&sideNums=3b4252&dates=6b7394" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=wp-datascape&hide_border=true&background=00000000&ring=7aa2f7&fire=bb9af7&currStreakLabel=7aa2f7&sideLabels=bb9af7&currStreakNum=a9b1d6&sideNums=a9b1d6&dates=6b7394" />
+</picture>
 
 </div>
 
