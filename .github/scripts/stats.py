@@ -15,12 +15,11 @@ query {
     contributionsCollection {
       totalCommitContributions
       restrictedContributionsCount
-      totalPullRequestContributions
-      totalPullRequestReviewContributions
     }
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
       totalCount
       nodes {
+        isPrivate
         stargazerCount
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name color } }
@@ -65,10 +64,10 @@ def collect(v):
     return {
         "rows": [
             ("Commits (last year)", cc["totalCommitContributions"] + cc["restrictedContributionsCount"]),
-            ("Pull requests (last year)", cc["totalPullRequestContributions"]),
-            ("Code reviews (last year)", cc["totalPullRequestReviewContributions"]),
-            ("Stars earned", sum(r["stargazerCount"] for r in repos)),
-            ("Repositories (incl. private)", v["repositories"]["totalCount"]),
+            ("Total repositories", v["repositories"]["totalCount"]),
+            ("Private repositories", sum(r["isPrivate"] for r in repos)),
+            ("Public repositories", sum(not r["isPrivate"] for r in repos)),
+            ("Languages used", len(langs)),
         ],
         "langs": [(n, s / total * 100, c) for n, (s, c) in top],
     }
