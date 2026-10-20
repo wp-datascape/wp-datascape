@@ -1,6 +1,10 @@
-# 👋 Hi, I'm TYO
+<div align="center">
 
-> Backend Developer | Go Enthusiast | Building Scalable Systems
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=140&section=header&text=Hi,%20I'm%20TYO&fontSize=40&fontAlignY=38)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&center=true&vCenter=true&width=520&lines=Backend+Developer;Go+Enthusiast;Building+Scalable+Systems)](https://github.com/wp-datascape)
+
+</div>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=wp-datascape&color=blueviolet&style=flat-square)](https://github.com/wp-datascape)
 
@@ -38,19 +42,16 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-## 📈 Contribution Graph
+## 📊 GitHub Stats
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=wp-datascape&theme=tokyo-night&hide_border=true&area=true)
+[![Streak](https://streak-stats.demolab.com/?user=wp-datascape&theme=tokyonight&hide_border=true)](https://github.com/wp-datascape)
 
-</div>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=wp-datascape&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wp-datascape&layout=compact&theme=tokyonight&hide_border=true" />
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=wp-datascape&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15&margin-h=15"/>
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wp-datascape&theme=tokyonight)
 
 </div>
 
@@ -81,7 +82,7 @@ Here are some of my recent projects:
 
 ## 📫 Connect With Me
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:work.wahyuprasetyo@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wp-datascape)
 
 ---
