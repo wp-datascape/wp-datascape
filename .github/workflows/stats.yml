@@ -1,0 +1,31 @@
+name: Generate Stats
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats SVG
+        run: python3 .github/scripts/stats.py dist
+        env:
+          STATS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+
+      - name: Push to stats-output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: stats-output
+          build_dir: dist
+          author: T Y O <work.wahyuprasetyo@gmail.com>
+          committer: T Y O <work.wahyuprasetyo@gmail.com>
+          commit_message: "chore: perbarui stats"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
