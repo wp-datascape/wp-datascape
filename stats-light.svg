@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="175" viewBox="0 0 360 175">
+<text x="0" y="22" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:18px;font-weight:600" fill="#3d59a1">GitHub Stats</text>
+<circle cx="6" cy="50" r="3.5" fill="#7e57c2"/>
+<text x="20" y="55" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px" fill="#3b4252">Commits (last year)</text>
+<text x="350" y="55" text-anchor="end" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px;font-weight:700" fill="#3d59a1">1,637</text>
+<circle cx="6" cy="75" r="3.5" fill="#7e57c2"/>
+<text x="20" y="80" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px" fill="#3b4252">Pull requests</text>
+<text x="350" y="80" text-anchor="end" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px;font-weight:700" fill="#3d59a1">269</text>
+<circle cx="6" cy="100" r="3.5" fill="#7e57c2"/>
+<text x="20" y="105" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px" fill="#3b4252">Total repositories</text>
+<text x="350" y="105" text-anchor="end" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px;font-weight:700" fill="#3d59a1">22</text>
+<circle cx="6" cy="125" r="3.5" fill="#7e57c2"/>
+<text x="20" y="130" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px" fill="#3b4252">Private repositories</text>
+<text x="350" y="130" text-anchor="end" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px;font-weight:700" fill="#3d59a1">15</text>
+<circle cx="6" cy="150" r="3.5" fill="#7e57c2"/>
+<text x="20" y="155" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px" fill="#3b4252">Public repositories</text>
+<text x="350" y="155" text-anchor="end" style="font-family:'Segoe UI',Ubuntu,Sans-Serif;font-size:14px;font-weight:700" fill="#3d59a1">7</text>
+</svg>
